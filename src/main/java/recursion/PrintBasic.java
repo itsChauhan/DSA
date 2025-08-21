@@ -4,14 +4,10 @@ public class PrintBasic {
 
 
     private static void print1ToN(int n){
-
-
-
         // base condition
         if(n<=0){
             return;
         }
-
         // induction start
         print1ToN(n-1); // hypothesis print1toN(n-1) will print from 1 to n-1
         System.out.println(n);
